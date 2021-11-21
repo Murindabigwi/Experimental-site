@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 900;
+  font-weight: 900;
+  margin-top: 15%;
+  letter-spacing: 15px;
+  line-height: 2;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+
+
+a{
+  color: rgba(156, 19, 19, 0.856);
+}
+
+ul{
+  list-style: none;
+}
+
+.title{
+  height: 85vh;
+  background-image: url(../images/title-img1.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.second-title{
+  padding: 7%;
+}
+
+/* .colomn-one {
+  margin: 5% 10%;
+}
+
+
+.colomn-one p{
+  text-align: left;
+} */
