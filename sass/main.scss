@@ -3,53 +3,46 @@
   padding: 0;
 }
 
-body {
-  text-align: center;
-  margin: 30px;
+body{
+  padding: 30px;
 }
 
 h1 {
+  text-transform: uppercase;
   font-size: 900;
+  padding-top: 15%;
   font-weight: 900;
-  margin-top: 15%;
   letter-spacing: 15px;
   line-height: 2;
-}
-
-h3 {
-  font-weight: 700;
-}
-
-h5 {
-  font-weight: 700;
-}
-
-
-
-a{
-  color: rgba(156, 19, 19, 0.856);
-}
-
-ul{
-  list-style: none;
+  padding-left: 6%;
 }
 
 .title{
   height: 85vh;
-  background-image: url(../images/title-img1.jpg);
+  background-image: url(../images/title-img.jpg);
   background-size: cover;
-  color: white;
+  position: relative;
+
+
+
+  &__paragraph{
+    // color: white;
+    padding-left: 12%;
+  }
+
+
+  &__img{
+    border-radius: 48px;
+    width: 35%;
+    position: absolute;
+    object-fit: scale-down;
+    right: 0;
+    top: 13%;
+    height: 60vh;
+  }
 }
 
-.second-title{
-  padding: 7%;
-}
-
-/* .colomn-one {
-  margin: 5% 10%;
-}
 
 
-.colomn-one p{
-  text-align: left;
-} */
+
+
